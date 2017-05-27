@@ -13,7 +13,7 @@ IMPORTANT!
 
 I think this goes without saying but the <wall block id> must be an id of a block, not item or something. Highly not recommended to choose ids of Saplings, Flowers, Water and Lava as that will not be a proper maze and it might cause heavy on your server so you have been warned. If you do not know ids of blocks and items, visit this link : http://minecraft-ids.grahamedgecombe.com/
 
-It is highly recommended to generate the maze on a flat area or in the air but keep in mind that only the walls of the maze are generated so if you want a floor or a roof, you will have to build it hehe. (it is recommended to use WorldEdit for that when you create big mazes). 
+It is highly recommended to generate the maze on a flat area or in the air but keep in mind that only the walls of the maze are generated so if you want a floor or a roof, you will have to build it, hi-hi-hi. (it is recommended to use WorldEdit for that job especially when the mage is huuu-ge). 
 
 Everytime you generate a maze, there is always a way out. However, you can always change the locations of start/end and place/remove walls in the maze after it is generated but you have to make sure there is at least 1 way from the new start to the new end (for a proper maze xD) Well, enough talking. 
 
