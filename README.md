@@ -1,9 +1,8 @@
-<h1># Maze
-<h2>A plugin for generating mazes created by Panda843
+<h1> # Maze - A plugin for generating mazes created by Panda843
 
-<h2>Usage : /maze <size_x> <size_z> <walls_height> <wall block id[:block meta]><h2>
+Usage : /maze <size_x> <size_z> <walls_height> <wall block id[:block meta]>
 
-<h2> IMPORTANT<h2> ! 
+<h2> IMPORTANT! 
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -19,7 +18,7 @@ Everytime you generate a maze, there is always a way out. However, you can alway
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-<h2>*Here is an example*<h1> :
+*Here is an example* :
 
 ![alt text](https://image.prntscr.com/image/d0eda448b9694113973f38270b0140dc.png)
 
