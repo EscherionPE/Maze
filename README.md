@@ -1,8 +1,8 @@
-<h2> *Maze - A plugin for generating mazes created by Panda843*
+Maze - A plugin for generating mazes created by Panda843
 
 Usage : /maze <size_x> <size_z> <walls_height> <wall block id[:block meta]>
 
-<h2> *IMPORTANT!*
+IMPORTANT!
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -18,7 +18,7 @@ Everytime you generate a maze, there is always a way out. However, you can alway
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-*Here is an example* :
+Here is an example :
 
 ![alt text](https://image.prntscr.com/image/d0eda448b9694113973f38270b0140dc.png)
 
