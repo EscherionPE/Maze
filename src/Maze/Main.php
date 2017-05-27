@@ -17,21 +17,21 @@ class Main extends PluginBase
     public $prefs;
     public $wall_list = [];
     
-	public function onEnable() 
+    public function onEnable() 
     {
         @mkdir($this->getDataFolder());
        
-		$this->prefs = new Config($this->getDataFolder() . "config.yml", CONFIG::YAML, array(
-				"min_size_x" => 5,
-				"max_size_x" => 99,
-				"min_size_z" => 5,
-				"max_size_z" => 99,
-				"min_walls_height" => 3,
-				"max_walls_height" => 10
-		));
+	$this->prefs = new Config($this->getDataFolder() . "config.yml", CONFIG::YAML, array(
+			"min_size_x" => 5,
+			"max_size_x" => 99,
+			"min_size_z" => 5,
+			"max_size_z" => 99,
+			"min_walls_height" => 3,
+			"max_walls_height" => 10
+	));
 		
-		$this->getLogger()->info("Maze has been enabled");
-	}
+	$this->getLogger()->info("Maze has been enabled");
+    }
     
     public function in_maze($row, $col, $size_x, $size_z) 
     {
@@ -122,7 +122,7 @@ class Main extends PluginBase
             $this->getLogger()->info($s);
         }
     }
-	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) 
+    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) 
     {
         if ($cmd->getName() == "maze") {
             if(!($sender instanceof Player)){
@@ -165,8 +165,8 @@ class Main extends PluginBase
     }
     
 	
-	public function onDisable() 
+    public function onDisable() 
     {
-		$this->getLogger()->info("Maze has been disabled");
-	}
+	$this->getLogger()->info("Maze has been disabled");
+    }
 }
