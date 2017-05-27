@@ -3,7 +3,6 @@
 namespace Maze;
 
 use pocketmine\Player;
-use pocketmine\item\Item;
 use pocketmine\block\Block;
 use pocketmine\math\Vector3;
 use pocketmine\utils\Config;
