@@ -15,7 +15,11 @@ I think this goes without saying but the <wall block id> must be an id of a bloc
 
 It is highly recommended to generate the maze on a flat area or in the air but keep in mind that only the walls of the maze are generated so you will have to build the floor (here it is recommended to use WorldEdit for that when you create big mazes). 
 
-Everytime you generate a maze, there is always a way out. However, you can always change the locations of start/end and place/remove walls in the maze after it is generated but you have to make sure there is at least 1 way from the new start to the new end (for a proper maze xD) Well, enough talking. Here is an example :
+Everytime you generate a maze, there is always a way out. However, you can always change the locations of start/end and place/remove walls in the maze after it is generated but you have to make sure there is at least 1 way from the new start to the new end (for a proper maze xD) Well, enough talking. 
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Here is an example :
 
 ![alt text](https://image.prntscr.com/image/d0eda448b9694113973f38270b0140dc.png)
 
