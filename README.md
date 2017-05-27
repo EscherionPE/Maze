@@ -2,9 +2,9 @@ Maze - A plugin for generating mazes created by Panda843
 
 Usage : /maze <size_x> <size_z> <walls_height> <wall block id[:block meta]>
 
-IMPORTANT!
-
 ------------------------------------------------------------------------------------------------------------------------------
+
+IMPORTANT!
 
 <size_x> and <size_z> must both be odd numbers and must be in range of min_size_x/max_size_x and min_size_z/max_size_z, a range which you can edit in the config.yml
 
