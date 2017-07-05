@@ -1,6 +1,7 @@
 Maze - A plugin for generating mazes created by Panda843/EschieEsh
 
 Usage : /maze <size_x> <size_z> <walls_height> <wall block id[:block meta]>
+
 Permission : maze.cmd | Default - OP
 
 ------------------------------------------------------------------------------------------------------------------------------
