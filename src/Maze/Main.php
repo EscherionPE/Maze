@@ -128,6 +128,10 @@ class Main extends PluginBase
                 $sender->sendMessage(T::RED . "You must be in game to execute the command!");
                 return false;
             }
+	    if(!$sender->hasPermission("maze.cmd")){
+		$sender->sendMessage(T::RED . "You do not have permission to generate mazes!");
+                return false;   
+	    }
             if(count($args) != 4){
                 $sender->sendMessage(T::RED . "Usage : \n". T::AQUA . "/maze <size_x> <size_y> <wall_height> <block_id[:block_meta]>");
                 return false;
