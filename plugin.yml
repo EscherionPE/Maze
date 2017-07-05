@@ -3,7 +3,7 @@ author: EschieEsh
 description: a plugin for generating labyrinths
 version: 1.0.0
 main: Maze\Main
-api: 2.0.0
+api: [3.0.0-ALPHA5, 3.0.0-ALPHA6]
 commands:
   maze:
     description: a command for generating mazes
