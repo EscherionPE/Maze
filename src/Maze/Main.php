@@ -133,7 +133,7 @@ class Main extends PluginBase
                 return false;   
 	    }
             if(count($args) != 4){
-                $sender->sendMessage(T::RED . "Usage : \n". T::AQUA . "/maze <size_x> <size_y> <wall_height> <block_id[:block_meta]>");
+                $sender->sendMessage(T::RED . "Usage : \n". T::AQUA . "/maze <size_x> <size_z> <wall_height> <block_id[:block_meta]>");
                 return false;
             }
             if($args[0] < $this->prefs->get("min_size_x") or $args[0] > $this->prefs->get("max_size_x")){
